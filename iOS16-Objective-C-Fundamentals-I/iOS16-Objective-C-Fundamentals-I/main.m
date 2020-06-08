@@ -39,6 +39,23 @@ int main(int argc, const char * argv[]) {
         NSLog(@"largeNumber: %@, smallNumber: %d", basics.largeNumber, basics.smallNumber);
         
         //basics.explorePrimitives() // Swift
+        
+        [basics explorePrimitives];  // start writing "basics" first, then close with ]
+        
+        [basics exploreObjects];  // start with [, it will add ], and you can type it to "walk over character"
+        
+        // Swift
+        //basics.exploreCollections(array: ["Malcolm Reynolds", "Jean-Luc Picard", "James T. Kirk", "Kathryn Janeway"])
+        
+        // @[]  // = empty array literal
+        [basics exploreCollectionsWithArray:@[@"Malcolm Reynolds",
+                                              @"Jean-Luc Picard",
+                                              @"James T. Kirk",
+                                              @"Kathryn Janeway"]];
+        
+        [basics exploreNumbers];
+
+        
     }
     return 0;
 }
