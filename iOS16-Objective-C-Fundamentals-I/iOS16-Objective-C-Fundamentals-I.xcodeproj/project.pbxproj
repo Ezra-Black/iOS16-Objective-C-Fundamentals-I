@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD945156248E9C40007D5FB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD945155248E9C40007D5FB0 /* main.m */; };
+		BD94515E248E9D5A007D5FB0 /* SyntaxBasics.m in Sources */ = {isa = PBXBuildFile; fileRef = BD94515D248E9D5A007D5FB0 /* SyntaxBasics.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		BD945152248E9C40007D5FB0 /* iOS16-Objective-C-Fundamentals-I */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "iOS16-Objective-C-Fundamentals-I"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD945155248E9C40007D5FB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD94515C248E9D5A007D5FB0 /* SyntaxBasics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyntaxBasics.h; sourceTree = "<group>"; };
+		BD94515D248E9D5A007D5FB0 /* SyntaxBasics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyntaxBasics.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				BD945155248E9C40007D5FB0 /* main.m */,
+				BD94515C248E9D5A007D5FB0 /* SyntaxBasics.h */,
+				BD94515D248E9D5A007D5FB0 /* SyntaxBasics.m */,
 			);
 			path = "iOS16-Objective-C-Fundamentals-I";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD945156248E9C40007D5FB0 /* main.m in Sources */,
+				BD94515E248E9D5A007D5FB0 /* SyntaxBasics.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

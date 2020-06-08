@@ -8,10 +8,37 @@
 
 #import <Foundation/Foundation.h>
 
+// import header files
+#import "SyntaxBasics.h"
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+//        print("Paul Solt") // Swift
+        NSLog(@"Paul Solt");
+        //@"Objective-C String" // Object
+        //"C programming language string" // Array of characters (not an object)
+
+        // 1. Allocate memory - buying land
+        // 2. Initialize the memory - building a house/store
+
+        // Swift
+        //let basics = SyntaxBasics(largeNumber: NSNumber(234344398), smallNumber: 27)
+
+        SyntaxBasics *basics = [[SyntaxBasics alloc] initWithLargeNumber:@234344398 smallNumber:27];
+
+        // printing in Objc uses String tokens
+        // %@ = object
+        // %d = integer (%i)
+        // %f = float
+        // %lu = long unsigned (positive large integer)
+
+        NSLog(@"basics: %@", basics);
+
+        //        print("largeNumber: \(basics.largeNumber), smallNumber: \(basics.smallNumber)")
+        NSLog(@"largeNumber: %@, smallNumber: %d", basics.largeNumber, basics.smallNumber);
+        
+        //basics.explorePrimitives() // Swift
     }
     return 0;
 }
