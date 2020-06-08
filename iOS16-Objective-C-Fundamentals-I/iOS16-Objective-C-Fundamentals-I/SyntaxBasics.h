@@ -64,11 +64,13 @@ NS_ASSUME_NONNULL_BEGIN // for optionals
 // Swift
 //func explorePrimitives() -> Void { }
 //func exploreObjects() { }
-//func exploreCollectionsWithArray(shipCaptains: NSArray) { }
+//func exploreCollections(shipCaptains: NSArray) { }
 //func exploreNumbers() { }
 
 - (void)explorePrimitives;
-
+- (void)exploreObjects;
+- (void)exploreCollectionsWithArray:(NSArray *)shipCaptains;
+- (void)exploreNumbers;
 
 @end
 

@@ -29,4 +29,24 @@
     return self;
 }
 
+- (void)explorePrimitives
+{
+    
+}
+
+- (void)exploreObjects
+{
+    
+}
+
+- (void)exploreCollectionsWithArray:(NSArray *)shipCaptains
+{
+    
+}
+
+- (void)exploreNumbers
+{
+    
+}
+
 @end
